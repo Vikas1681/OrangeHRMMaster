@@ -1,0 +1,9 @@
+views\LoginView.class
+pageObjects\LoginPage.class
+pageObjects\HomePage.class
+views\AdminView.class
+scripts\LoginTest.class
+scripts\Practiuce.class
+views\CommonView.class
+pageObjects\AdminPage.class
+scripts\AdminTest.class

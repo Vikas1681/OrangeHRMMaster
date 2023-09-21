@@ -1,0 +1,8 @@
+generic\BaseTest.class
+generic\ConfigReader.class
+utility\ExcelHelper.class
+utility\Utility.class
+generic\WrapperFunctions.class
+generic\InitiaseWebDriver.class
+generic\Pojo.class
+generic\BrowserFactory.class

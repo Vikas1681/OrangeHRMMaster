@@ -1,0 +1,337 @@
+Attaching to orangehrm-chrome-1, orangehrm-edge-1, orangehrm-firefox-1, selenium-hub
+selenium-hub         | 2023-09-21 08:04:24,041 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub         | 2023-09-21 08:04:24,050 INFO RPC interface 'supervisor' initialized
+selenium-hub         | 2023-09-21 08:04:24,050 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+selenium-hub         | 2023-09-21 08:04:24,051 INFO supervisord started with pid 8
+orangehrm-edge-1     | 2023-09-21 08:04:25,013 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+orangehrm-edge-1     | 2023-09-21 08:04:25,019 INFO RPC interface 'supervisor' initialized
+orangehrm-edge-1     | 2023-09-21 08:04:25,020 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+orangehrm-edge-1     | 2023-09-21 08:04:25,021 INFO supervisord started with pid 8
+selenium-hub         | 2023-09-21 08:04:25,055 INFO spawned: 'selenium-grid-hub' with pid 10
+selenium-hub         | Tracing is disabled
+selenium-hub         | 2023-09-21 08:04:25,062 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:04:25,106 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+orangehrm-firefox-1  | 2023-09-21 08:04:25,108 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+orangehrm-firefox-1  | 2023-09-21 08:04:25,116 INFO RPC interface 'supervisor' initialized
+orangehrm-firefox-1  | 2023-09-21 08:04:25,116 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+orangehrm-chrome-1   | 2023-09-21 08:04:25,116 INFO RPC interface 'supervisor' initialized
+orangehrm-chrome-1   | 2023-09-21 08:04:25,116 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+orangehrm-firefox-1  | 2023-09-21 08:04:25,118 INFO supervisord started with pid 8
+orangehrm-chrome-1   | 2023-09-21 08:04:25,119 INFO supervisord started with pid 8
+selenium-hub         | 08:04:25.850 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub         | 08:04:25.860 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub         | 08:04:26.022 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.23.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.23.0.2:4443]
+orangehrm-edge-1     | 2023-09-21 08:04:26,026 INFO spawned: 'xvfb' with pid 10
+orangehrm-edge-1     | 2023-09-21 08:04:26,031 INFO spawned: 'vnc' with pid 11
+orangehrm-edge-1     | 2023-09-21 08:04:26,036 INFO spawned: 'novnc' with pid 12
+orangehrm-edge-1     | 2023-09-21 08:04:26,041 INFO spawned: 'selenium-node' with pid 15
+orangehrm-edge-1     | 2023-09-21 08:04:26,063 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+orangehrm-firefox-1  | 2023-09-21 08:04:26,122 INFO spawned: 'xvfb' with pid 10
+orangehrm-chrome-1   | 2023-09-21 08:04:26,122 INFO spawned: 'xvfb' with pid 10
+orangehrm-chrome-1   | 2023-09-21 08:04:26,125 INFO spawned: 'vnc' with pid 11
+orangehrm-firefox-1  | 2023-09-21 08:04:26,126 INFO spawned: 'vnc' with pid 11
+orangehrm-chrome-1   | 2023-09-21 08:04:26,128 INFO spawned: 'novnc' with pid 12
+orangehrm-firefox-1  | 2023-09-21 08:04:26,129 INFO spawned: 'novnc' with pid 12
+orangehrm-chrome-1   | 2023-09-21 08:04:26,132 INFO spawned: 'selenium-node' with pid 14
+orangehrm-firefox-1  | 2023-09-21 08:04:26,133 INFO spawned: 'selenium-node' with pid 14
+orangehrm-firefox-1  | 2023-09-21 08:04:26,168 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:04:26,202 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub         | 08:04:26.227 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.23.0.2:4442 and tcp://172.23.0.2:4443
+selenium-hub         | 08:04:26.279 INFO [UnboundZmqEventBus.<init>] - Sockets created
+orangehrm-edge-1     | Generating Selenium Config
+orangehrm-edge-1     | Configuring server...
+orangehrm-edge-1     | Setting up SE_NODE_HOST...
+orangehrm-edge-1     | Setting up SE_NODE_PORT...
+orangehrm-edge-1     | Setting up SE_NODE_GRID_URL...
+orangehrm-edge-1     | Tracing is disabled
+orangehrm-edge-1     | Selenium Grid Node configuration: 
+orangehrm-edge-1     | [events]
+orangehrm-edge-1     | publish = "tcp://selenium-hub:4442"
+orangehrm-edge-1     | subscribe = "tcp://selenium-hub:4443"
+orangehrm-edge-1     | 
+orangehrm-edge-1     | [node]
+orangehrm-edge-1     | session-timeout = "300"
+orangehrm-edge-1     | override-max-sessions = false
+orangehrm-edge-1     | detect-drivers = false
+orangehrm-edge-1     | drain-after-session-count = 0
+orangehrm-edge-1     | max-sessions = 1
+orangehrm-edge-1     | 
+orangehrm-edge-1     | [[node.driver-configuration]]
+orangehrm-edge-1     | display-name = "MicrosoftEdge"
+orangehrm-edge-1     | stereotype = '{"browserName": "MicrosoftEdge", "browserVersion": "116.0", "platformName": "Linux"}'
+orangehrm-edge-1     | max-sessions = 1
+orangehrm-edge-1     | 
+orangehrm-edge-1     | Starting Selenium Grid Node...
+orangehrm-chrome-1   | Generating Selenium Config
+orangehrm-chrome-1   | Configuring server...
+orangehrm-chrome-1   | Setting up SE_NODE_HOST...
+orangehrm-chrome-1   | Setting up SE_NODE_PORT...
+orangehrm-chrome-1   | Setting up SE_NODE_GRID_URL...
+orangehrm-firefox-1  | Generating Selenium Config
+orangehrm-firefox-1  | Configuring server...
+orangehrm-firefox-1  | Setting up SE_NODE_HOST...
+orangehrm-firefox-1  | Setting up SE_NODE_PORT...
+orangehrm-firefox-1  | Setting up SE_NODE_GRID_URL...
+orangehrm-chrome-1   | Tracing is disabled
+orangehrm-chrome-1   | Selenium Grid Node configuration: 
+orangehrm-chrome-1   | [events]
+orangehrm-chrome-1   | publish = "tcp://selenium-hub:4442"
+orangehrm-chrome-1   | subscribe = "tcp://selenium-hub:4443"
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | [node]
+orangehrm-chrome-1   | session-timeout = "300"
+orangehrm-chrome-1   | override-max-sessions = false
+orangehrm-chrome-1   | detect-drivers = false
+orangehrm-chrome-1   | drain-after-session-count = 0
+orangehrm-chrome-1   | max-sessions = 1
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | [[node.driver-configuration]]
+orangehrm-chrome-1   | display-name = "chrome"
+orangehrm-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "116.0", "platformName": "Linux"}'
+orangehrm-chrome-1   | max-sessions = 1
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | Starting Selenium Grid Node...
+orangehrm-firefox-1  | Tracing is disabled
+orangehrm-firefox-1  | Selenium Grid Node configuration: 
+orangehrm-firefox-1  | [events]
+orangehrm-firefox-1  | publish = "tcp://selenium-hub:4442"
+orangehrm-firefox-1  | subscribe = "tcp://selenium-hub:4443"
+orangehrm-firefox-1  | 
+orangehrm-firefox-1  | [node]
+orangehrm-firefox-1  | session-timeout = "300"
+orangehrm-firefox-1  | override-max-sessions = false
+orangehrm-firefox-1  | detect-drivers = false
+orangehrm-firefox-1  | drain-after-session-count = 0
+orangehrm-firefox-1  | max-sessions = 1
+orangehrm-firefox-1  | 
+orangehrm-firefox-1  | [[node.driver-configuration]]
+orangehrm-firefox-1  | display-name = "firefox"
+orangehrm-firefox-1  | stereotype = '{"browserName": "firefox", "browserVersion": "117.0", "platformName": "Linux"}'
+orangehrm-firefox-1  | max-sessions = 1
+orangehrm-firefox-1  | 
+orangehrm-firefox-1  | Starting Selenium Grid Node...
+orangehrm-edge-1     | 2023-09-21 08:04:27,082 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-edge-1     | 2023-09-21 08:04:27,082 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-edge-1     | 2023-09-21 08:04:27,082 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-firefox-1  | 2023-09-21 08:04:27,200 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-firefox-1  | 2023-09-21 08:04:27,200 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-firefox-1  | 2023-09-21 08:04:27,204 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:04:27,232 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:04:27,233 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:04:27,237 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+selenium-hub         | 08:04:27.285 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+orangehrm-edge-1     | 08:04:27.586 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+orangehrm-edge-1     | 08:04:27.602 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+orangehrm-firefox-1  | 08:04:27.983 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+orangehrm-firefox-1  | 08:04:27.998 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+orangehrm-edge-1     | 08:04:28.116 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+orangehrm-chrome-1   | 08:04:28.147 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+orangehrm-chrome-1   | 08:04:28.169 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+orangehrm-edge-1     | 08:04:28.460 INFO [UnboundZmqEventBus.<init>] - Sockets created
+orangehrm-firefox-1  | 08:04:28.695 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+orangehrm-chrome-1   | 08:04:28.780 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+orangehrm-firefox-1  | 08:04:28.927 INFO [UnboundZmqEventBus.<init>] - Sockets created
+orangehrm-chrome-1   | 08:04:28.981 INFO [UnboundZmqEventBus.<init>] - Sockets created
+orangehrm-edge-1     | 08:04:29.473 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+selenium-hub         | 08:04:29.561 INFO [Hub.execute] - Started Selenium Hub 4.12.1 (revision 8e34639b11): http://172.23.0.2:4444
+orangehrm-edge-1     | 08:04:29.700 INFO [NodeServer.createHandlers] - Reporting self as: http://172.23.0.3:5555
+orangehrm-edge-1     | 08:04:29.738 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+orangehrm-edge-1     | 08:04:29.841 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserName": "MicrosoftEdge","browserVersion": "116.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+orangehrm-edge-1     | 08:04:29.874 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+orangehrm-firefox-1  | 08:04:29.931 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+orangehrm-chrome-1   | 08:04:29.987 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+orangehrm-firefox-1  | 08:04:30.191 INFO [NodeServer.createHandlers] - Reporting self as: http://172.23.0.4:5555
+orangehrm-firefox-1  | 08:04:30.247 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+orangehrm-chrome-1   | 08:04:30.314 INFO [NodeServer.createHandlers] - Reporting self as: http://172.23.0.5:5555
+orangehrm-edge-1     | 08:04:30.397 INFO [NodeServer$1.start] - Starting registration process for Node http://172.23.0.3:5555
+orangehrm-chrome-1   | 08:04:30.418 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+orangehrm-edge-1     | 08:04:30.422 INFO [NodeServer.execute] - Started Selenium node 4.12.1 (revision 8e34639b11): http://172.23.0.3:5555
+orangehrm-firefox-1  | 08:04:30.467 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "117.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+orangehrm-edge-1     | 08:04:30.476 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+orangehrm-firefox-1  | 08:04:30.525 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub         | 08:04:30.660 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+orangehrm-chrome-1   | 08:04:30.735 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "116.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+orangehrm-chrome-1   | 08:04:30.812 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+orangehrm-firefox-1  | 08:04:31.199 INFO [NodeServer$1.start] - Starting registration process for Node http://172.23.0.4:5555
+orangehrm-firefox-1  | 08:04:31.203 INFO [NodeServer.execute] - Started Selenium node 4.12.1 (revision 8e34639b11): http://172.23.0.4:5555
+orangehrm-firefox-1  | 08:04:31.234 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+orangehrm-chrome-1   | 08:04:31.348 INFO [NodeServer$1.start] - Starting registration process for Node http://172.23.0.5:5555
+orangehrm-chrome-1   | 08:04:31.351 INFO [NodeServer.execute] - Started Selenium node 4.12.1 (revision 8e34639b11): http://172.23.0.5:5555
+orangehrm-chrome-1   | 08:04:31.376 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub         | 08:04:31.733 INFO [GridModel.setAvailability] - Switching Node 01ff33ff-282d-453c-b7a6-7eee0606fecb (uri: http://172.23.0.3:5555) from DOWN to UP
+selenium-hub         | 08:04:31.737 INFO [LocalDistributor.add] - Added node 01ff33ff-282d-453c-b7a6-7eee0606fecb at http://172.23.0.3:5555. Health check every 120s
+orangehrm-edge-1     | 08:04:31.757 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub         | 08:04:31.764 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub         | 08:04:32.123 INFO [GridModel.setAvailability] - Switching Node d6a5e18f-87c5-48f5-9b72-8e97eb0d011e (uri: http://172.23.0.4:5555) from DOWN to UP
+selenium-hub         | 08:04:32.125 INFO [LocalDistributor.add] - Added node d6a5e18f-87c5-48f5-9b72-8e97eb0d011e at http://172.23.0.4:5555. Health check every 120s
+selenium-hub         | 08:04:32.133 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+orangehrm-firefox-1  | 08:04:32.137 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub         | 08:04:32.443 INFO [GridModel.setAvailability] - Switching Node 6ff72300-4702-412e-9de0-363545b1e8d7 (uri: http://172.23.0.5:5555) from DOWN to UP
+selenium-hub         | 08:04:32.444 INFO [LocalDistributor.add] - Added node 6ff72300-4702-412e-9de0-363545b1e8d7 at http://172.23.0.5:5555. Health check every 120s
+orangehrm-chrome-1   | 08:04:32.449 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+orangehrm-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+orangehrm-chrome-1   | 2023-09-21 08:04:35,454 WARN received SIGTERM indicating exit request
+orangehrm-chrome-1   | 2023-09-21 08:04:35,454 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+orangehrm-chrome-1   | 2023-09-21 08:04:35,800 INFO stopped: selenium-node (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:04:36,803 INFO stopped: novnc (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:04:37,805 INFO stopped: vnc (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:04:38,808 INFO stopped: xvfb (terminated by SIGTERM)
+orangehrm-chrome-1   | Shutdown complete
+orangehrm-chrome-1 exited with code 143
+orangehrm-chrome-1 exited with code 0
+orangehrm-chrome-1   | 2023-09-21 08:04:40,193 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+orangehrm-chrome-1   | 2023-09-21 08:04:40,210 INFO RPC interface 'supervisor' initialized
+orangehrm-chrome-1   | 2023-09-21 08:04:40,211 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+orangehrm-chrome-1   | 2023-09-21 08:04:40,212 INFO supervisord started with pid 8
+orangehrm-chrome-1   | 2023-09-21 08:04:41,217 INFO spawned: 'xvfb' with pid 10
+orangehrm-chrome-1   | 2023-09-21 08:04:41,226 INFO spawned: 'vnc' with pid 11
+orangehrm-chrome-1   | 2023-09-21 08:04:41,228 INFO spawned: 'novnc' with pid 12
+orangehrm-chrome-1   | 2023-09-21 08:04:41,230 INFO spawned: 'selenium-node' with pid 16
+orangehrm-chrome-1   | 2023-09-21 08:04:41,249 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+orangehrm-chrome-1   | Generating Selenium Config
+orangehrm-chrome-1   | Configuring server...
+orangehrm-chrome-1   | Setting up SE_NODE_HOST...
+orangehrm-chrome-1   | Setting up SE_NODE_PORT...
+orangehrm-chrome-1   | Setting up SE_NODE_GRID_URL...
+orangehrm-chrome-1   | Tracing is disabled
+orangehrm-chrome-1   | Selenium Grid Node configuration: 
+orangehrm-chrome-1   | [events]
+orangehrm-chrome-1   | publish = "tcp://selenium-hub:4442"
+orangehrm-chrome-1   | subscribe = "tcp://selenium-hub:4443"
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | [node]
+orangehrm-chrome-1   | session-timeout = "300"
+orangehrm-chrome-1   | override-max-sessions = false
+orangehrm-chrome-1   | detect-drivers = false
+orangehrm-chrome-1   | drain-after-session-count = 0
+orangehrm-chrome-1   | max-sessions = 1
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | [[node.driver-configuration]]
+orangehrm-chrome-1   | display-name = "chrome"
+orangehrm-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "116.0", "platformName": "Linux"}'
+orangehrm-chrome-1   | max-sessions = 1
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | Starting Selenium Grid Node...
+orangehrm-chrome-1   | 2023-09-21 08:04:42,257 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:04:42,257 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:04:42,258 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 08:04:42.286 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+orangehrm-chrome-1   | 08:04:42.295 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+orangehrm-chrome-1   | 08:04:42.535 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+orangehrm-chrome-1   | 08:04:42.652 INFO [UnboundZmqEventBus.<init>] - Sockets created
+orangehrm-chrome-1   | 08:04:43.658 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+orangehrm-chrome-1   | 08:04:43.844 INFO [NodeServer.createHandlers] - Reporting self as: http://172.23.0.5:5555
+orangehrm-chrome-1   | 08:04:43.881 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+orangehrm-chrome-1   | 08:04:43.978 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "116.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+orangehrm-chrome-1   | 08:04:44.011 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+orangehrm-chrome-1   | 08:04:44.399 INFO [NodeServer$1.start] - Starting registration process for Node http://172.23.0.5:5555
+orangehrm-chrome-1   | 08:04:44.402 INFO [NodeServer.execute] - Started Selenium node 4.12.1 (revision 8e34639b11): http://172.23.0.5:5555
+orangehrm-chrome-1   | 08:04:44.437 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub         | 08:04:44.450 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub         | 08:04:44.803 INFO [GridModel.setAvailability] - Switching Node f37b3066-e4c4-4bea-a5ee-664ef8070232 (uri: http://172.23.0.5:5555) from DOWN to UP
+selenium-hub         | 08:04:44.804 INFO [LocalDistributor.add] - Added node f37b3066-e4c4-4bea-a5ee-664ef8070232 at http://172.23.0.5:5555. Health check every 120s
+orangehrm-chrome-1   | 08:04:44.814 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub         | 08:04:44.825 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub         |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [--disable-notifications], extensions: []}}]
+orangehrm-chrome-1   | 08:04:45.209 WARN [SeleniumManager.lambda$runCommand$1] - Exception managing chrome: Unable to discover proper chromedriver version in offline mode
+orangehrm-chrome-1   | 08:04:47.087 INFO [LocalNode.newSession] - Session created by the Node. Id: 40979eaaf4359232b1872f19c4990724, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.23.0.5:4444/sessio..., se:cdpVersion: 116.0.5845.187, se:vnc: ws://172.23.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.23.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenium-hub         | 08:04:47.150 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 40979eaaf4359232b1872f19c4990724 
+selenium-hub         |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.23.0.5:4444/sessio..., se:cdpVersion: 116.0.5845.187, se:vnc: ws://172.23.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.23.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+orangehrm-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+orangehrm-chrome-1   | 2023-09-21 08:05:15,091 WARN received SIGTERM indicating exit request
+orangehrm-chrome-1   | 2023-09-21 08:05:15,092 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-hub         | 08:05:15.126 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 40979eaaf4359232b1872f19c4990724
+selenium-hub         | 08:05:15.127 INFO [GridModel.release] - Releasing slot for session id 40979eaaf4359232b1872f19c4990724
+orangehrm-chrome-1   | 2023-09-21 08:05:15,468 INFO stopped: selenium-node (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:05:16,471 INFO stopped: novnc (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:05:17,474 INFO stopped: vnc (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:05:18,476 INFO stopped: xvfb (terminated by SIGTERM)
+orangehrm-chrome-1   | Shutdown complete
+orangehrm-chrome-1 exited with code 143
+orangehrm-chrome-1 exited with code 0
+orangehrm-chrome-1   | 2023-09-21 08:05:20,084 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+orangehrm-chrome-1   | 2023-09-21 08:05:20,089 INFO RPC interface 'supervisor' initialized
+orangehrm-chrome-1   | 2023-09-21 08:05:20,090 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+orangehrm-chrome-1   | 2023-09-21 08:05:20,090 INFO supervisord started with pid 8
+orangehrm-chrome-1   | 2023-09-21 08:05:21,097 INFO spawned: 'xvfb' with pid 10
+orangehrm-chrome-1   | 2023-09-21 08:05:21,101 INFO spawned: 'vnc' with pid 11
+orangehrm-chrome-1   | 2023-09-21 08:05:21,104 INFO spawned: 'novnc' with pid 12
+orangehrm-chrome-1   | 2023-09-21 08:05:21,108 INFO spawned: 'selenium-node' with pid 15
+orangehrm-chrome-1   | 2023-09-21 08:05:21,132 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+orangehrm-chrome-1   | Generating Selenium Config
+orangehrm-chrome-1   | Configuring server...
+orangehrm-chrome-1   | Setting up SE_NODE_HOST...
+orangehrm-chrome-1   | Setting up SE_NODE_PORT...
+orangehrm-chrome-1   | Setting up SE_NODE_GRID_URL...
+orangehrm-chrome-1   | Tracing is disabled
+orangehrm-chrome-1   | Selenium Grid Node configuration: 
+orangehrm-chrome-1   | [events]
+orangehrm-chrome-1   | publish = "tcp://selenium-hub:4442"
+orangehrm-chrome-1   | subscribe = "tcp://selenium-hub:4443"
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | [node]
+orangehrm-chrome-1   | session-timeout = "300"
+orangehrm-chrome-1   | override-max-sessions = false
+orangehrm-chrome-1   | detect-drivers = false
+orangehrm-chrome-1   | drain-after-session-count = 0
+orangehrm-chrome-1   | max-sessions = 1
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | [[node.driver-configuration]]
+orangehrm-chrome-1   | display-name = "chrome"
+orangehrm-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "116.0", "platformName": "Linux"}'
+orangehrm-chrome-1   | max-sessions = 1
+orangehrm-chrome-1   | 
+orangehrm-chrome-1   | Starting Selenium Grid Node...
+orangehrm-chrome-1   | 2023-09-21 08:05:22,138 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:05:22,139 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 2023-09-21 08:05:22,139 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+orangehrm-chrome-1   | 08:05:22.385 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+orangehrm-chrome-1   | 08:05:22.397 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+orangehrm-chrome-1   | 08:05:22.678 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+orangehrm-chrome-1   | 08:05:22.802 INFO [UnboundZmqEventBus.<init>] - Sockets created
+orangehrm-chrome-1   | 08:05:23.808 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+orangehrm-chrome-1   | 08:05:24.031 INFO [NodeServer.createHandlers] - Reporting self as: http://172.23.0.5:5555
+orangehrm-chrome-1   | 08:05:24.072 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+orangehrm-chrome-1   | 08:05:24.166 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "116.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+orangehrm-chrome-1   | 08:05:24.196 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+orangehrm-chrome-1   | 08:05:24.551 INFO [NodeServer$1.start] - Starting registration process for Node http://172.23.0.5:5555
+orangehrm-chrome-1   | 08:05:24.554 INFO [NodeServer.execute] - Started Selenium node 4.12.1 (revision 8e34639b11): http://172.23.0.5:5555
+orangehrm-chrome-1   | 08:05:24.578 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub         | 08:05:24.590 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub         | 08:05:24.884 INFO [GridModel.setAvailability] - Switching Node 09589da9-d82b-41da-be2e-46ea9f9548bc (uri: http://172.23.0.5:5555) from DOWN to UP
+selenium-hub         | 08:05:24.885 INFO [LocalDistributor.add] - Added node 09589da9-d82b-41da-be2e-46ea9f9548bc at http://172.23.0.5:5555. Health check every 120s
+selenium-hub         | 08:05:24.902 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub         |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [--disable-notifications], extensions: []}}]
+orangehrm-chrome-1   | 08:05:24.914 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+orangehrm-chrome-1   | 08:05:25.267 WARN [SeleniumManager.lambda$runCommand$1] - Exception managing chrome: Unable to discover proper chromedriver version in offline mode
+orangehrm-chrome-1   | 08:05:27.284 INFO [LocalNode.newSession] - Session created by the Node. Id: 076910b217bcfc3b968d8486a75ddd4c, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38929}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.23.0.5:4444/sessio..., se:cdpVersion: 116.0.5845.187, se:vnc: ws://172.23.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.23.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenium-hub         | 08:05:27.333 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 076910b217bcfc3b968d8486a75ddd4c 
+selenium-hub         |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38929}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.23.0.5:4444/sessio..., se:cdpVersion: 116.0.5845.187, se:vnc: ws://172.23.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.23.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+orangehrm-edge-1     | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+orangehrm-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+orangehrm-firefox-1  | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+orangehrm-edge-1     | 2023-09-21 08:05:55,878 WARN received SIGTERM indicating exit request
+orangehrm-edge-1     | 2023-09-21 08:05:55,879 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+orangehrm-chrome-1   | 2023-09-21 08:05:56,138 WARN received SIGTERM indicating exit request
+orangehrm-chrome-1   | 2023-09-21 08:05:56,139 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-hub         | 08:05:56.181 INFO [GridModel.release] - Releasing slot for session id 076910b217bcfc3b968d8486a75ddd4c
+selenium-hub         | 08:05:56.181 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 076910b217bcfc3b968d8486a75ddd4c
+orangehrm-edge-1     | 2023-09-21 08:05:56,254 INFO stopped: selenium-node (terminated by SIGTERM)
+orangehrm-firefox-1  | 2023-09-21 08:05:56,261 WARN received SIGTERM indicating exit request
+orangehrm-firefox-1  | 2023-09-21 08:05:56,262 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+orangehrm-chrome-1   | 2023-09-21 08:05:56,537 INFO stopped: selenium-node (terminated by SIGTERM)
+orangehrm-firefox-1  | 2023-09-21 08:05:56,611 INFO stopped: selenium-node (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:05:57,015 INFO stopped: novnc (terminated by SIGTERM)
+orangehrm-edge-1     | 2023-09-21 08:05:57,257 INFO stopped: novnc (terminated by SIGTERM)
+orangehrm-firefox-1  | 2023-09-21 08:05:57,614 INFO stopped: novnc (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:05:58,018 INFO stopped: vnc (terminated by SIGTERM)
+orangehrm-edge-1     | 2023-09-21 08:05:58,260 INFO stopped: vnc (terminated by SIGTERM)
+orangehrm-firefox-1  | 2023-09-21 08:05:58,617 INFO stopped: vnc (terminated by SIGTERM)
+orangehrm-chrome-1   | 2023-09-21 08:05:59,020 INFO stopped: xvfb (terminated by SIGTERM)
+orangehrm-chrome-1   | Shutdown complete
+orangehrm-edge-1     | 2023-09-21 08:05:59,262 INFO stopped: xvfb (terminated by SIGTERM)
+orangehrm-edge-1     | Shutdown complete
+orangehrm-chrome-1 exited with code 143
+orangehrm-firefox-1  | 2023-09-21 08:05:59,619 INFO stopped: xvfb (terminated by SIGTERM)
+orangehrm-firefox-1  | Shutdown complete
+orangehrm-edge-1 exited with code 143

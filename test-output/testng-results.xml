@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T08:04:17Z" name="Suite" finished-at="2023-09-21T08:05:50Z" duration-ms="92836">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T08:04:17Z" name="Test" finished-at="2023-09-21T08:05:50Z" duration-ms="92836">
+      <class name="scripts.LoginTest">
+        <test-method is-config="true" signature="initialiseSetup()[pri:0, instance:scripts.LoginTest@48075da3]" started-at="2023-09-21T08:05:13Z" name="initialiseSetup" finished-at="2023-09-21T08:05:32Z" duration-ms="19835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetup -->
+        <test-method signature="TC_01_LoginTest()[pri:0, instance:scripts.LoginTest@48075da3]" started-at="2023-09-21T08:05:32Z" name="TC_01_LoginTest" finished-at="2023-09-21T08:05:50Z" duration-ms="17669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginTest -->
+        <test-method is-config="true" signature="setupDown()[pri:0, instance:scripts.LoginTest@48075da3]" started-at="2023-09-21T08:05:50Z" name="setupDown" finished-at="2023-09-21T08:05:50Z" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDown -->
+      </class> <!-- scripts.LoginTest -->
+      <class name="scripts.AdminTest">
+        <test-method is-config="true" signature="dockerComposeUP()[pri:0, instance:scripts.AdminTest@8458f04]" started-at="2023-09-21T08:04:17Z" name="dockerComposeUP" finished-at="2023-09-21T08:04:33Z" duration-ms="15090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dockerComposeUP -->
+        <test-method is-config="true" signature="initialiseSetup()[pri:0, instance:scripts.AdminTest@8458f04]" started-at="2023-09-21T08:04:33Z" name="initialiseSetup" finished-at="2023-09-21T08:04:54Z" duration-ms="21120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetup -->
+        <test-method signature="TC_01_Admin_CreateNewUser()[pri:0, instance:scripts.AdminTest@8458f04]" started-at="2023-09-21T08:04:54Z" name="TC_01_Admin_CreateNewUser" finished-at="2023-09-21T08:05:12Z" duration-ms="18697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Admin_CreateNewUser -->
+        <test-method is-config="true" signature="setupDown()[pri:0, instance:scripts.AdminTest@8458f04]" started-at="2023-09-21T08:05:12Z" name="setupDown" finished-at="2023-09-21T08:05:13Z" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDown -->
+        <test-method is-config="true" signature="dockerComposeDown()[pri:0, instance:scripts.AdminTest@8458f04]" started-at="2023-09-21T08:05:50Z" name="dockerComposeDown" finished-at="2023-09-21T08:05:50Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dockerComposeDown -->
+      </class> <!-- scripts.AdminTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

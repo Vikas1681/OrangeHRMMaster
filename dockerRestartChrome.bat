@@ -1,0 +1,1 @@
+docker restart orangehrm-chrome-1
